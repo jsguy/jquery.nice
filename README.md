@@ -1,0 +1,4 @@
+jqnice
+======
+
+jQuery nice plugin
