@@ -1,5 +1,5 @@
-jqnice
-======
+jquery.nice
+===========
 
 jQuery nice plugin - sort of a little like the "nice" command, (http://en.wikipedia.org/wiki/Nice_(Unix)), (well, the overall idea is the same), but for jQuery iteration instead.
 
