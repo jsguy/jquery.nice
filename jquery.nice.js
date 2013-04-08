@@ -1,5 +1,5 @@
 /*
-  A "nice-like" jQuery plugin by jsguy - MIT/BSD licenced.
+	A "nice-like" jQuery plugin by jsguy - MIT licenced.
 
 	It works just like jQuery's each function, except it is async, with optional callback function
 
@@ -37,14 +37,18 @@
 				}
 			};
 
+		//	Start me up
 		niceFunc(0);
 
+		//	jQuery wants this
 		return this;
 	};
-	//	Maximum loops before clearing rendering queue
+
+	//	Default maximum loops before clearing rendering queue
 	$.fn.nice.maxCount = 100;
+
 	//	Expose on main jQuery object as well
 	$.nice = function(array, func, cb) {
 		$(array).nice(func, cb);
 	};
-}(window.jQuery));
+}(jQuery));
