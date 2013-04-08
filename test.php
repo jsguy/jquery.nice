@@ -2,7 +2,7 @@
 <head>
   <title>Be nice with JavaScript</title>
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-	<script src="jquery.nice-0.0.1.js"></script>
+	<script src="jquery.nice.js"></script>
 	<style>
 		.hide	{ display: none; }
 	</style>
