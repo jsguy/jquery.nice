@@ -27,7 +27,7 @@ Progress: <span id="progress">0%</span><span id="results"></span>
 </p>
 
 <p>
-	Click the button below to run it again!<br/>
+	Click the button below to run jquery.nice!<br/>
 	<button type="button" id="nocrash">Click here to run test</button>
 </p>
 
@@ -100,7 +100,7 @@ $('#nocrash').click(function(){
 });
 
 $('#snowcrash').click(function(){
-	if(confirm("Are you sure you want to crash your browser? You won't be warned again...")) {
+	if(confirm("Are you sure you want to crash your browser? You won't be warned again... The page will reload, and then you will see a blank screen for a bit, then 100% progress, or possibly an unresponsive warning, instead of actual progress.")) {
 		window.document.location.hash = "snowcrash";
 		window.document.location.reload();
 	}
